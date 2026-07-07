@@ -1,0 +1,72 @@
+name: Analyse
+description: Undersøg og vurder et emne, produkt eller en problemstilling
+title: "[Analyse]: "
+labels: ["analysis"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Brug denne skabelon til analyser af produkter, teknologier, processer eller arkitekturmæssige problemstillinger.
+
+  - type: textarea
+    id: emne
+    attributes:
+      label: Hvad skal analyseres?
+      description: Beskriv kort analysens emne.
+      placeholder: Fx Produkt, CRM-løsninger, integrationsarkitektur eller governance.
+    validations:
+      required: true
+
+  - type: textarea
+    id: baggrund
+    attributes:
+      label: Baggrund
+      description: Hvorfor er analysen relevant?
+      placeholder: Hvilket behov eller hvilken udfordring ligger bag?
+    validations:
+      required: true
+
+  - type: textarea
+    id: maalgruppe
+    attributes:
+      label: Målgruppe
+      description: Beskriv relevante brugere eller roller.
+      placeholder: Fx produktforvaltere, administratorer, andre i OS2-fællesskabet.
+    validations:
+      required: false
+
+  - type: textarea
+    id: kandidater
+    attributes:
+      label: Mulige løsninger eller kandidater
+      description: Hvilke produkter, teknologier eller tilgange bør indgå i analysen?
+      placeholder: Angiv de løsninger eller tilgange, der ønskes undersøgt.
+    validations:
+      required: false
+
+  - type: textarea
+    id: kriterier
+    attributes:
+      label: Evalueringskriterier
+      description: Hvilke kriterier skal løsningerne vurderes ud fra?
+      placeholder: Fx funktionalitet, modenhed, licens, integration, sikkerhed, fællesskab og vedligeholdelse.
+    validations:
+      required: false
+
+  - type: textarea
+    id: anbefaling
+    attributes:
+      label: Foreløbig anbefaling
+      description: Er der allerede en foreløbig vurdering eller hypotese?
+      placeholder: Hvis du allerede har en forventning eller anbefaling, kan den beskrives her.
+    validations:
+      required: false
+
+  - type: textarea
+    id: referencer
+    attributes:
+      label: Referencer
+      description: Links til dokumentation, projekter eller anden relevant information.
+      placeholder: Dokumentation, GitHub-projekter, artikler eller andre relevante kilder.
+    validations:
+      required: false
