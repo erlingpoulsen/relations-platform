@@ -26,7 +26,6 @@ Projektets aktiviteter dokumenteres i GitHub.
 Det betyder, at:
 
 - opgaver oprettes som **Issues**
-- dialog og idéudvikling foregår i **Discussions**
 - beslutninger dokumenteres i repository'et
 - ændringer gennemgås via **Pull Requests**
 - projektets status følges i **GitHub Projects**
@@ -35,26 +34,7 @@ Information bør så vidt muligt ikke "gemmes" i mails eller private noter.
 
 ---
 
-# Princip 2 – Discussions bruges til dialog
-
-**GitHub Discussions** anvendes til dialog og videndeling.
-
-Eksempler:
-
-- idéudvikling
-- spørgsmål
-- erfaringer med produkter
-- workshop-opfølgning
-- arkitekturovervejelser
-- afklaring af behov
-
-En Discussion har ikke nødvendigvis en ansvarlig eller en deadline.
-
-Når dialogen fører til en konkret aktivitet, oprettes et **Issue**, som kan planlægges og følges i projektet.
-
----
-
-# Princip 3 – Issues beskriver arbejde
+# Princip 2 – Issues beskriver arbejde
 
 Et **Issue** repræsenterer et konkret stykke arbejde.
 
@@ -79,7 +59,7 @@ Store aktiviteter opdeles i mindre Issues, så fremdriften bliver synlig.
 
 ---
 
-# Princip 4 – GitHub Projects giver overblik
+# Princip 3 – GitHub Projects giver overblik
 
 GitHub Projects anvendes til projektstyring.
 
@@ -103,7 +83,7 @@ Projects giver et samlet overblik over status, ansvar og fremdrift.
 
 ---
 
-# Princip 5 – Pull Requests kvalitetssikrer ændringer
+# Princip 4 – Pull Requests kvalitetssikrer ændringer
 
 Alle væsentlige ændringer foretages gennem en **Pull Request**.
 
@@ -125,7 +105,7 @@ Pull Requests giver mulighed for:
 
 ---
 
-# Princip 6 – Beslutninger dokumenteres
+# Princip 5 – Beslutninger dokumenteres
 
 Projektets væsentlige beslutninger skal kunne findes igen.
 
@@ -147,7 +127,7 @@ En beslutning bør beskrive:
 
 ---
 
-# Princip 7 – Transparens
+# Princip 6 – Transparens
 
 Projektet bygger på åbenhed.
 
@@ -162,7 +142,7 @@ Målet er, at alle kan forstå projektets udvikling og beslutningsgrundlag.
 
 ---
 
-# Princip 8 – Genbrug før nyudvikling
+# Princip 7 – Genbrug før nyudvikling
 
 Projektets grundlæggende princip er:
 
@@ -183,7 +163,6 @@ Ved vurdering af produkter prioriteres blandt andet:
 
 | Funktion | Formål |
 |----------|--------|
-| **Discussions** | Dialog, idéer, spørgsmål og videndeling |
 | **Issues** | Konkrete opgaver og leverancer |
 | **Projects** | Planlægning, prioritering og status |
 | **Pull Requests** | Review og godkendelse af ændringer |
@@ -194,9 +173,6 @@ Ved vurdering af produkter prioriteres blandt andet:
 
 ```text
 Idé eller behov
-        │
-        ▼
-Discussion
         │
         ▼
 Issue
