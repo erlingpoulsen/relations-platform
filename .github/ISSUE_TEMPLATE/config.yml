@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📖 Projektets README
+    url: https://github.com/OS2sandbox/relations-platform/blob/main/README.md
+    about: Læs projektets formål, arbejdsprincipper og dokumentation, før du opretter et issue.
