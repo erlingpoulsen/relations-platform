@@ -1,4 +1,4 @@
-name: Usecase
+name: "🧩 Usecase"
 description: Beskriv et konkret behov set fra brugerens perspektiv
 title: "[Usecase]: "
 labels: ["usecase"]
@@ -12,6 +12,10 @@ body:
 
         Beskriv behovet – ikke en bestemt løsning.
 
+        Eksempel:
+
+        **Når en produktforvalter skal invitere relevante kommuner til et arrangement, har vedkommende behov for at kunne finde kontaktpersoner ud fra produkt og rolle, så invitationen kan sendes til den relevante målgruppe.**
+        
   - type: input
     id: rolle
     attributes:
