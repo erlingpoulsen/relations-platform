@@ -1,0 +1,63 @@
+name: 💡 Idé
+description: Foreslå en idé, mulighed eller retning for projektet
+title: "[Idé]: "
+labels: ["idé"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Brug denne skabelon til idéer, forslag eller muligheder, som endnu ikke nødvendigvis er modne nok til en konkret opgave.
+
+  - type: textarea
+    id: beskrivelse
+    attributes:
+      label: Kort beskrivelse
+      description: Beskriv idéen kort og konkret.
+      placeholder: Hvad går idéen ud på?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Hvilket problem eller behov adresserer idéen?
+      description: Beskriv hvorfor idéen er relevant.
+      placeholder: Hvilket behov, problem eller mulighed handler dette om?
+    validations:
+      required: true
+
+  - type: textarea
+    id: maalgruppe
+    attributes:
+      label: Hvem har gavn af idéen?
+      description: Beskriv relevante brugere eller roller.
+      placeholder: Fx produktforvaltere, administratorer, andre i OS2-fællesskabet.
+    validations:
+      required: false
+
+  - type: textarea
+    id: forslag
+    attributes:
+      label: Mulig løsning eller retning
+      description: Beskriv eventuelt hvordan idéen kunne realiseres.
+      placeholder: Har du et forslag til løsning, produkt, proces eller tilgang?
+    validations:
+      required: false
+
+  - type: textarea
+    id: aabne_spoergsmaal
+    attributes:
+      label: Åbne spørgsmål
+      description: Hvad mangler at blive afklaret?
+      placeholder: Hvilke spørgsmål bør undersøges, før idéen kan blive til en analyse eller opgave?
+    validations:
+      required: false
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links og referencer
+      description: Tilføj relevante links, eksempler eller inspiration.
+      placeholder: Links til projekter, dokumentation, artikler eller lignende.
+    validations:
+      required: false

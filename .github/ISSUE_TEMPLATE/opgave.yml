@@ -1,0 +1,63 @@
+name: ✅ Opgave
+description: Beskriv en konkret opgave, der skal udføres
+title: "[Opgave]: "
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Brug denne skabelon til konkrete opgaver, som kan planlægges og udføres.
+
+  - type: textarea
+    id: beskrivelse
+    attributes:
+      label: Beskrivelse
+      description: Beskriv kort opgaven.
+      placeholder: Hvad skal udføres?
+    validations:
+      required: true
+
+  - type: textarea
+    id: formaal
+    attributes:
+      label: Formål
+      description: Hvorfor skal opgaven udføres?
+      placeholder: Hvad er formålet eller den ønskede effekt?
+    validations:
+      required: true
+
+  - type: textarea
+    id: leverancer
+    attributes:
+      label: Forventede leverancer
+      description: Hvad forventes opgaven at resultere i?
+      placeholder: Fx opdateret dokumentation, analyse, beslutningsoplæg eller implementering.
+    validations:
+      required: true
+
+  - type: textarea
+    id: accept
+    attributes:
+      label: Acceptkriterier
+      description: Hvornår betragtes opgaven som løst?
+      placeholder: Beskriv de kriterier, der skal være opfyldt.
+    validations:
+      required: false
+
+  - type: textarea
+    id: afhaengigheder
+    attributes:
+      label: Afhængigheder
+      description: Er opgaven afhængig af andre issues, beslutninger eller projekter?
+      placeholder: Referér gerne til andre issues med #nummer.
+    validations:
+      required: false
+
+  - type: textarea
+    id: noter
+    attributes:
+      label: Yderligere noter
+      description: Eventuelle supplerende oplysninger.
+      placeholder: Links, kommentarer eller anden relevant information.
+    validations:
+      required: false
