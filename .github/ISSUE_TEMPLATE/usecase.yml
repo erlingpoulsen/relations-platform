@@ -1,0 +1,53 @@
+name: "🧩 Usecase"
+description: Beskriv et konkret behov set fra brugerens perspektiv
+title: "[Usecase]: "
+labels: ["usecase"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Beskriv et konkret behov med udgangspunkt i:
+        
+        **Når [rolle] skal [udføre en konkret opgave], har vedkommende behov for [information eller understøttelse], så [det ønskede resultat kan opnås].**
+
+        Beskriv behovet – ikke en bestemt løsning.
+
+        Eksempel:
+
+        **Når en produktforvalter skal invitere relevante kommuner til et arrangement, har vedkommende behov for at kunne finde kontaktpersoner ud fra produkt og rolle, så invitationen kan sendes til den relevante målgruppe.**
+        
+  - type: input
+    id: rolle
+    attributes:
+      label: Rolle
+      description: Hvem har behovet?
+      placeholder: Fx produktforvalter, sekretariatsmedarbejder eller deltager
+    validations:
+      required: true
+
+  - type: textarea
+    id: opgave
+    attributes:
+      label: Opgave
+      description: Hvad skal personen konkret kunne gøre?
+      placeholder: Beskriv den konkrete opgave eller situation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: behov
+    attributes:
+      label: Behov
+      description: Hvilken information eller understøttelse er der behov for?
+      placeholder: Beskriv behovet uden at foreslå en bestemt løsning.
+    validations:
+      required: true
+
+  - type: textarea
+    id: resultat
+    attributes:
+      label: Ønsket resultat
+      description: Hvad skal personen kunne opnå?
+      placeholder: Beskriv det ønskede resultat.
+    validations:
+      required: true
