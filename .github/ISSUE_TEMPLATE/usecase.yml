@@ -16,7 +16,16 @@ body:
 
         **Når en produktforvalter skal invitere relevante kommuner til et arrangement, har vedkommende behov for at kunne finde kontaktpersoner ud fra produkt og rolle, så invitationen kan sendes til den relevante målgruppe.**
         
-  - type: input
+    - type: input
+    id: kontaktperson
+    attributes:
+      label: Kontaktperson
+      description: Hvem kan kontaktes, hvis usecasen skal afklares eller uddybes?
+      placeholder: Navn, organisation og evt. e-mail
+    validations:
+      required: true
+      
+    - type: input
     id: rolle
     attributes:
       label: Rolle
